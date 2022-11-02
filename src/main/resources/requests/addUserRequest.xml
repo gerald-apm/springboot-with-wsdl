@@ -1,0 +1,13 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:p2p="http://service.gpm.my.id/xmltesting">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <p2p:addUserRequest>
+            <user>
+                <name>Wanda</name>
+                <empId>6</empId>
+                <salary>1000</salary>
+            </user>
+        </p2p:addUserRequest>
+    </soapenv:Body>
+</soapenv:Envelope>

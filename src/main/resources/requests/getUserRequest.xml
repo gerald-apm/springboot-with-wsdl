@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:gs="http://service.gpm.my.id/xmltesting">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <gs:getUserRequest>
+            <name>Gerald</name>
+        </gs:getUserRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
